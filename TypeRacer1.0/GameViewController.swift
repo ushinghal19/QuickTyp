@@ -61,7 +61,6 @@ class GameViewController: UIViewController {
         timeLabel?.textColor = UIColor.white
         seconds = 60
         updateTimeLabel()
-        //updateProgress()
         randomWord()
         pinkCounter = 0
         updateHighScore()
@@ -92,7 +91,6 @@ class GameViewController: UIViewController {
             updateHighScore()
             updateWordCounter()
             randomWord()
-            //updateProgress()
             inputField?.text = ""
             
 
@@ -129,7 +127,6 @@ class GameViewController: UIViewController {
         updateHighScore()
         updateWordCounter()
         randomWord()
-        //updateProgress()
         updateTimeLabel()
         
         
@@ -163,7 +160,6 @@ class GameViewController: UIViewController {
         progressView?.progress = 0.0
         seconds = 60
         updateTimeLabel()
-        //updateProgress()
         randomWord()
         pinkCounter = 0
         updateHighScore()
