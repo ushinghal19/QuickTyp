@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -22,23 +22,6 @@
                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kd5-No-l8L">
-                                <rect key="frame" x="19" y="438.5" width="376" height="19"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Delete this and start typing here">
-                                        <attributes>
-                                            <color key="NSColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="24" name="Courier"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
-                                <connections>
-                                    <action selector="inputFieldDidChange" destination="BV1-FR-VrT" eventType="editingChanged" id="Ca4-op-N2h"/>
-                                </connections>
-                            </textField>
                             <progressView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="1" progressImage="LogoMakr_4XKFnS" translatesAutoresizingMaskIntoConstraints="NO" id="PUv-8i-Nbf">
                                 <rect key="frame" x="58" y="91" width="290" height="2"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -128,6 +111,57 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Enter Text Here" minimumFontSize="17" background="input" translatesAutoresizingMaskIntoConstraints="NO" id="Kd5-No-l8L">
+                                <rect key="frame" x="117" y="419" width="180" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Enter">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="0.15732074873096447" green="0.15732074873096447" blue="0.15732074873096447" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Menlo-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="0.15732074873096447" green="0.15732074873096447" blue="0.15732074873096447" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="AppleBraille-Outline6Dot"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Text">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="0.15732074873096447" green="0.15732074873096447" blue="0.15732074873096447" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Menlo-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="0.15732074873096447" green="0.15732074873096447" blue="0.15732074873096447" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="AppleBraille-Outline6Dot"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Here">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="0.15732074873096447" green="0.15732074873096447" blue="0.15732074873096447" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Menlo-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <connections>
+                                    <action selector="inputFieldDidChange" destination="BV1-FR-VrT" eventType="editingChanged" id="Ca4-op-N2h"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
@@ -151,5 +185,6 @@
         <image name="LogoMakr_0zAOEY" width="352" height="400"/>
         <image name="LogoMakr_2e3OUf" width="400" height="400"/>
         <image name="LogoMakr_4XKFnS" width="400" height="131"/>
+        <image name="input" width="256" height="111"/>
     </resources>
 </document>

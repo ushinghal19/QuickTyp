@@ -65,6 +65,7 @@ class GameViewController: UIViewController {
         pinkCounter = 0
         updateHighScore()
         updateWordCounter()
+        inputField?.text = ""
         
     }
     
