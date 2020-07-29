@@ -20,7 +20,7 @@ class GameViewController: UIViewController {
     @IBOutlet weak var wordCounter: UILabel?
     @IBOutlet weak var restartButton: UIButton?
     @IBOutlet weak var highScore: UILabel?
-    
+  
     var pinkCounter = 0
     var timer: Timer?
     var seconds = 60
@@ -165,7 +165,6 @@ class GameViewController: UIViewController {
         pinkCounter = 0
         updateHighScore()
         updateWordCounter()
-        
-        
+        inputField?.text = ""
     }
 }
