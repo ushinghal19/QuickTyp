@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB9CA4DC24D1B74F0025F9B2 /* 37232.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9CA4DB24D1B74E0025F9B2 /* 37232.png */; };
 		ABBEBE5E23ADE37F008F44A6 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEBE5D23ADE37F008F44A6 /* String.swift */; };
 		ABD4F79D23AD559900528010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4F79C23AD559900528010 /* AppDelegate.swift */; };
 		ABD4F79F23AD559900528010 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ABD4F79E23AD559900528010 /* GameScene.sks */; };
@@ -38,8 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB9CA4DB24D1B74E0025F9B2 /* 37232.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 37232.png; path = Assets.xcassets/37232.imageset/37232.png; sourceTree = "<group>"; };
 		ABBEBE5D23ADE37F008F44A6 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		ABD4F79923AD559900528010 /* TypeRacer1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypeRacer1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD4F79923AD559900528010 /* TypeX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypeX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD4F79C23AD559900528010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABD4F79E23AD559900528010 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		ABD4F7A023AD559900528010 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -49,10 +51,10 @@
 		ABD4F7A923AD559E00528010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABD4F7AC23AD559E00528010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABD4F7AE23AD559E00528010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABD4F7B323AD559E00528010 /* TypeRacer1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypeRacer1.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD4F7B323AD559E00528010 /* TypeXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypeXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD4F7B723AD559E00528010 /* TypeRacer1_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeRacer1_0Tests.swift; sourceTree = "<group>"; };
 		ABD4F7B923AD559E00528010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABD4F7BE23AD559E00528010 /* TypeRacer1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypeRacer1.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD4F7BE23AD559E00528010 /* TypeXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypeXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD4F7C223AD559E00528010 /* TypeRacer1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeRacer1_0UITests.swift; sourceTree = "<group>"; };
 		ABD4F7C423AD559E00528010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,9 +97,9 @@
 		ABD4F79A23AD559900528010 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ABD4F79923AD559900528010 /* TypeRacer1.0.app */,
-				ABD4F7B323AD559E00528010 /* TypeRacer1.0Tests.xctest */,
-				ABD4F7BE23AD559E00528010 /* TypeRacer1.0UITests.xctest */,
+				ABD4F79923AD559900528010 /* TypeX.app */,
+				ABD4F7B323AD559E00528010 /* TypeXTests.xctest */,
+				ABD4F7BE23AD559E00528010 /* TypeXUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +116,7 @@
 				ABD4F7A923AD559E00528010 /* Assets.xcassets */,
 				ABD4F7AB23AD559E00528010 /* LaunchScreen.storyboard */,
 				ABD4F7AE23AD559E00528010 /* Info.plist */,
+				AB9CA4DB24D1B74E0025F9B2 /* 37232.png */,
 				ABBEBE5D23ADE37F008F44A6 /* String.swift */,
 			);
 			path = TypeRacer1.0;
@@ -140,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ABD4F79823AD559900528010 /* TypeRacer1.0 */ = {
+		ABD4F79823AD559900528010 /* TypeX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABD4F7C723AD559E00528010 /* Build configuration list for PBXNativeTarget "TypeRacer1.0" */;
+			buildConfigurationList = ABD4F7C723AD559E00528010 /* Build configuration list for PBXNativeTarget "TypeX" */;
 			buildPhases = (
 				ABD4F79523AD559900528010 /* Sources */,
 				ABD4F79623AD559900528010 /* Frameworks */,
@@ -152,14 +155,14 @@
 			);
 			dependencies = (
 			);
-			name = TypeRacer1.0;
+			name = TypeX;
 			productName = TypeRacer1.0;
-			productReference = ABD4F79923AD559900528010 /* TypeRacer1.0.app */;
+			productReference = ABD4F79923AD559900528010 /* TypeX.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ABD4F7B223AD559E00528010 /* TypeRacer1.0Tests */ = {
+		ABD4F7B223AD559E00528010 /* TypeXTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABD4F7CA23AD559E00528010 /* Build configuration list for PBXNativeTarget "TypeRacer1.0Tests" */;
+			buildConfigurationList = ABD4F7CA23AD559E00528010 /* Build configuration list for PBXNativeTarget "TypeXTests" */;
 			buildPhases = (
 				ABD4F7AF23AD559E00528010 /* Sources */,
 				ABD4F7B023AD559E00528010 /* Frameworks */,
@@ -170,14 +173,14 @@
 			dependencies = (
 				ABD4F7B523AD559E00528010 /* PBXTargetDependency */,
 			);
-			name = TypeRacer1.0Tests;
+			name = TypeXTests;
 			productName = TypeRacer1.0Tests;
-			productReference = ABD4F7B323AD559E00528010 /* TypeRacer1.0Tests.xctest */;
+			productReference = ABD4F7B323AD559E00528010 /* TypeXTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		ABD4F7BD23AD559E00528010 /* TypeRacer1.0UITests */ = {
+		ABD4F7BD23AD559E00528010 /* TypeXUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABD4F7CD23AD559E00528010 /* Build configuration list for PBXNativeTarget "TypeRacer1.0UITests" */;
+			buildConfigurationList = ABD4F7CD23AD559E00528010 /* Build configuration list for PBXNativeTarget "TypeXUITests" */;
 			buildPhases = (
 				ABD4F7BA23AD559E00528010 /* Sources */,
 				ABD4F7BB23AD559E00528010 /* Frameworks */,
@@ -188,9 +191,9 @@
 			dependencies = (
 				ABD4F7C023AD559E00528010 /* PBXTargetDependency */,
 			);
-			name = TypeRacer1.0UITests;
+			name = TypeXUITests;
 			productName = TypeRacer1.0UITests;
-			productReference = ABD4F7BE23AD559E00528010 /* TypeRacer1.0UITests.xctest */;
+			productReference = ABD4F7BE23AD559E00528010 /* TypeXUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -216,8 +219,8 @@
 					};
 				};
 			};
-			buildConfigurationList = ABD4F79423AD559900528010 /* Build configuration list for PBXProject "TypeRacer1.0" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = ABD4F79423AD559900528010 /* Build configuration list for PBXProject "TypeX" */;
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -229,9 +232,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ABD4F79823AD559900528010 /* TypeRacer1.0 */,
-				ABD4F7B223AD559E00528010 /* TypeRacer1.0Tests */,
-				ABD4F7BD23AD559E00528010 /* TypeRacer1.0UITests */,
+				ABD4F79823AD559900528010 /* TypeX */,
+				ABD4F7B223AD559E00528010 /* TypeXTests */,
+				ABD4F7BD23AD559E00528010 /* TypeXUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +249,7 @@
 				ABD4F7AA23AD559E00528010 /* Assets.xcassets in Resources */,
 				ABD4F7AD23AD559E00528010 /* LaunchScreen.storyboard in Resources */,
 				ABD4F7A123AD559900528010 /* Actions.sks in Resources */,
+				AB9CA4DC24D1B74F0025F9B2 /* 37232.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,12 +302,12 @@
 /* Begin PBXTargetDependency section */
 		ABD4F7B523AD559E00528010 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ABD4F79823AD559900528010 /* TypeRacer1.0 */;
+			target = ABD4F79823AD559900528010 /* TypeX */;
 			targetProxy = ABD4F7B423AD559E00528010 /* PBXContainerItemProxy */;
 		};
 		ABD4F7C023AD559E00528010 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ABD4F79823AD559900528010 /* TypeRacer1.0 */;
+			target = ABD4F79823AD559900528010 /* TypeX */;
 			targetProxy = ABD4F7BF23AD559E00528010 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -378,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -432,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -454,10 +458,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "U.S.TypeRacer1-0";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = U.S.TypeX;
+				PRODUCT_NAME = TypeX;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -473,10 +477,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "U.S.TypeRacer1-0";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = U.S.TypeX;
+				PRODUCT_NAME = TypeX;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -497,7 +501,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TypeRacer1.0.app/TypeRacer1.0";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TypeX.app/TypeX";
 			};
 			name = Debug;
 		};
@@ -518,7 +522,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TypeRacer1.0.app/TypeRacer1.0";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TypeX.app/TypeX";
 			};
 			name = Release;
 		};
@@ -563,7 +567,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ABD4F79423AD559900528010 /* Build configuration list for PBXProject "TypeRacer1.0" */ = {
+		ABD4F79423AD559900528010 /* Build configuration list for PBXProject "TypeX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABD4F7C523AD559E00528010 /* Debug */,
@@ -572,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABD4F7C723AD559E00528010 /* Build configuration list for PBXNativeTarget "TypeRacer1.0" */ = {
+		ABD4F7C723AD559E00528010 /* Build configuration list for PBXNativeTarget "TypeX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABD4F7C823AD559E00528010 /* Debug */,
@@ -581,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABD4F7CA23AD559E00528010 /* Build configuration list for PBXNativeTarget "TypeRacer1.0Tests" */ = {
+		ABD4F7CA23AD559E00528010 /* Build configuration list for PBXNativeTarget "TypeXTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABD4F7CB23AD559E00528010 /* Debug */,
@@ -590,7 +594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABD4F7CD23AD559E00528010 /* Build configuration list for PBXNativeTarget "TypeRacer1.0UITests" */ = {
+		ABD4F7CD23AD559E00528010 /* Build configuration list for PBXNativeTarget "TypeXUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABD4F7CE23AD559E00528010 /* Debug */,
